@@ -4,6 +4,22 @@ setup jenkins using helm on k3s
 deploy microservices on k3s using jenkins pipeline
 -------
 
+### mariadb setup
+1. sudo mariadb
+2. alter user 'root'@'localhost' identified by 'pass@123';
+
+systemctl start mariadb;
+
+### dbweaver
+1. snap run dbeaver-ce
+
+### k3s (kubernetes)
+1. systemctl start k3s
+2. systemctl status k3s
+
+### docker installed
+
+
 snap uninstall mysql workbench
 .
 GPT-4o mini
