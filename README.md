@@ -1,5 +1,5 @@
 ---
-install docker
+1. install docker
 setup k3s
 setup jenkins using helm on k3s
 deploy microservices on k3s using jenkins pipeline
