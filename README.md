@@ -16,6 +16,7 @@ systemctl start mariadb;
 ### k3s (kubernetes)
 1. systemctl start k3s
 2. systemctl status k3s
+3. alias kubectl='sudo k3s kubectl'
 
 ### docker installed
 
