@@ -1,2 +1,3 @@
-# notes
-coding notes 
+install docker
+setup k3s
+
